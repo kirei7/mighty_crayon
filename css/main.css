@@ -1,9 +1,21 @@
+/*common, cross section*/
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.fixed {
+    position: fixed;
+}
+.animation-container {
+    height: 90px;
+}
+/*common, cross section end*/
+
 /*nav*/
 nav {
-    background: rgba(0,0,0,0.3);
-    position: fixed;
     top: 50px;
     right: 50px;
+    z-index: 9999;
 }
 nav#nav-skew {
     -ms-transform: skew(-30deg); /* IE 9 */
@@ -22,6 +34,181 @@ nav  a {
     font-size: 16px;
     padding-top: 20px;
     text-align: center;
+    background: rgba(0,0,0,0.3);
+    margin-right: -4px; /*need to get rid of spacing between inline elements*/
+}
+nav a:hover {
+    background: rgba(200,200,200,0.3);
+    text-decoration: none;
+}
+nav a>span {
+    display: block;
+    -ms-transform: skew(30deg); /* IE 9 */
+    -webkit-transform: skew(30deg); /* Chrome, Safari, Opera */
+    transform: skew(30deg); /* Standard syntax */=
+}
+/*nav end*/
+
+/*section options*/
+#options {
+    height: 440px;
+    padding-top: 70px;
+}
+#options img {
+    width: 90px;
+    height: auto;
+    display: inline-block;
+}
+#options .option>div {
+    display: inline-block;
+    width: 260px;
+    float: right;
+    margin-top: 25px;
+}
+#options p {
+    font-size: 12px;
+}
+/*section options end*/
+
+/*section work*/
+#kids-bg-img {
+    margin-bottom: 60px;
+}
+#kids-bg-img img{
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    position: relative;
+    top: -10px;
+}
+#work {
+    background: url("../img/our_work/bg.jpg") center no-repeat;
+    color: white;
+}
+.whitespace {
+    height: 10px;
+    z-index: 0;
+}
+#work-content {
+    min-height: 880px;
+}
+#work-content header {
+    max-width: 440px;
+}
+.pic-group-item {
+    margin-top: 20px;
+    position: relative;
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+}
+.pic-group-item h4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+/*section work end*/
+
+/*section projects*/
+#projects div.projects-item {
+    min-height: 700px;
+}
+#projects div.projects-item h4 {
+    font-weight: bold;
 }
 
-/*nav end*/
+.yellow-underline {
+    height: 1px;
+    width: 52px;
+    border-bottom: 6px solid #fff008;
+    margin-bottom: 65px;
+}
+#projects a.learn-more {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+}
+/*section projects end*/
+
+/*section follow*/
+#follow {
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+#follow img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#social-links {
+    margin-top: 130px;
+}
+#social-links h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#social-links li {
+    display: inline-block;
+    margin-right: 45px;
+}
+/*section follow end*/
+
+/*footer*/
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 80px 0 60px 0;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer ul a {
+    color: white;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer .yellow-underline {
+    margin-bottom: 35px;
+}
+#footer-styled-ul li {
+    padding-left: 40px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+footer input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #d0d0d0;
+    background: transparent;
+}
+footer input[type="email"]:focus {
+    outline: none;
+}
+/*footer end*/
+
+/*copyright*/
+#copiright {
+    height: 120px;
+    line-height: 120px;
+    background-color: #191919;
+    color: white;
+    text-align: center;
+}
+#copiright span {
+    margin-right: 20px;
+}
+/*copyright end*/
