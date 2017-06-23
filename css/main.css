@@ -1,0 +1,27 @@
+/*nav*/
+nav {
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+nav#nav-skew {
+    -ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Chrome, Safari, Opera */
+    transform: skew(-30deg); /* Standard syntax */
+    transform-origin: bottom left; /* Prevent the bottom from shifting */
+}
+.nav-section {
+    display: inline-block;
+}
+nav  a {
+    display: block;
+    height: 60px;
+    width: 120px;
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*nav end*/
