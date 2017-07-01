@@ -1,0 +1,40 @@
+/*section header*/
+#impact-header {
+    height: 800px;
+    background: url("../img/impact/impact-header.png");
+    color: white;
+    display: table;
+    width: 100%;
+}
+
+#impact-header > div {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#impact-header > div > div {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+#impact-header h1 {
+    
+}
+/*section header end*/
+
+
+.col-sm-6.half-block:first-child {
+    padding-right: 0;
+}
+
+.col-sm-6.half-block:last-child {
+    padding-left: 0;
+}
+
+.center-greyline {
+    width: 600px;
+    border-bottom: 1px solid #cccccc;
+    height: 1px;
+    margin: 75px auto;
+}
