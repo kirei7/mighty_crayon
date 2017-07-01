@@ -8,6 +8,7 @@ body {
 }
 .animation-container {
     height: 90px;
+    position: relative;
 }
 /*common, cross section end*/
 
@@ -49,6 +50,85 @@ nav a>span {
 }
 /*nav end*/
 
+/*section head*/
+#head {
+    height: 840px;
+    width: 100%;
+    background-image: url("../img/main/header/header-bg-kids.png");
+}
+#head>div.container {
+    padding-top: 30px;
+}
+#head-img {
+    opacity: 0.8;
+    position: absolute;
+    height: 840px; /*should be the same as #head*/
+}
+#head-text {
+    margin-top: 250px;
+}
+#head h1 {
+    font-size: 82px;
+    margin-top: 0;
+}
+#head h4 {
+    font-size: 32px;
+    color: #525252;
+}
+#head-animation {
+    height: 100px;
+    margin-bottom: 40px;
+}
+#head-animation>div {
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    vertical-align: top;
+}
+#head-animation p {
+    margin-top: 35px;
+}
+.char-blue {
+    color: #00afef;
+}
+.char-brown {
+    color: #eea424;
+}
+.char-green {
+    color: #d4ee24;
+}
+.char-magenta {
+    color: #ee2491;
+}
+.char-red {
+    color: #ee2e24;
+}
+.char-yellow {
+    color: #fff008;
+}
+#head button {
+    width: 130px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+}
+.button-blue {
+    background-color: #00afef;
+}
+.button-red {
+    background-color: #ee2e24;
+}
+.button-yellow {
+    background-color: #fff008;
+}
+
+
+/*section head end*/
+
 /*section options*/
 #options {
     height: 440px;
@@ -85,7 +165,7 @@ nav a>span {
     top: -10px;
 }
 #work {
-    background: url("../img/our_work/bg.jpg") center no-repeat;
+    background: url("../img/main/our_work/bg.jpg") center no-repeat;
     color: white;
 }
 .whitespace {
@@ -113,6 +193,9 @@ nav a>span {
 /*section work end*/
 
 /*section projects*/
+#projects header {
+    margin-left: 105px;
+}
 #projects div.projects-item {
     min-height: 700px;
 }

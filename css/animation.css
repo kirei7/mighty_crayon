@@ -1,0 +1,26 @@
+/*
+Other
+*/
+.animation-circle {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    opacity: 1;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.animate-line {
+    width: 2px;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    margin-left: 5px;
+}
+
+.animation-blue .animation-circle {
+    border: 2px solid #1a8fc2;
+}
+.animation-blue .animate-line {
+    background-color: #1a8fc2;
+}
+
