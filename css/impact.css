@@ -19,11 +19,49 @@
 }
 
 #impact-header h1 {
-
+    font-size: 60px;
+    font-weight: bold;
 }
 /*section header end*/
 
+/*section reach*/
+#reach-animation {
+    position: relative;
+    font-size: 18px;
+}
+#reach-animation>div {
+    display: table-cell;
+    vertical-align: top;
+    min-width: 20px;
+    width: auto;
+}
+#impact-reach button {
+    width: 145px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff118;
+    color: #fff118;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+#reach-tip {
+    color: #aed67a;
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+#reach-tip span {
+    border-bottom: 2px solid #00afef;
+    padding-bottom: 20px;
+}
+/*section reach end*/
 
+/*section process*/
+#impact-process header img {
+    margin-top: 70px;
+    margin-bottom: 125px;
+}
 .col-sm-6.half-block:first-child {
     padding-right: 0;
 }
@@ -31,10 +69,20 @@
 .col-sm-6.half-block:last-child {
     padding-left: 0;
 }
-
 .center-greyline {
     width: 600px;
     border-bottom: 1px solid #cccccc;
     height: 1px;
     margin: 75px auto;
 }
+/*section process end*/
+
+/*section logos*/
+#logos {
+    margin: 55px auto;
+}
+#logos li {
+    padding-right: 100px;
+}
+
+/*section logos end*/
