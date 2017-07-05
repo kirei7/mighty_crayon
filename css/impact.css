@@ -2,25 +2,6 @@
 #impact-header {
     height: 800px;
     background: url("../img/impact/impact-header.png");
-    color: white;
-    display: table;
-    width: 100%;
-}
-
-#impact-header > div {
-    display: table-cell;
-    vertical-align: middle;
-
-}
-
-#impact-header > div > div {
-    margin: 0 auto;
-    max-width: 900px;
-}
-
-#impact-header h1 {
-    font-size: 60px;
-    font-weight: bold;
 }
 /*section header end*/
 

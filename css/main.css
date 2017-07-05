@@ -295,3 +295,25 @@ footer input[type="email"]:focus {
     margin-right: 20px;
 }
 /*copyright end*/
+
+/*other(common)*/
+.headblock {
+    color: white;
+    display: table;
+    width: 100%;
+}
+.headblock > div {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.headblock > div > div {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.headblock h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
