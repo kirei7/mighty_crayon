@@ -16,52 +16,6 @@ AnimCreator.prototype.run = function () {
 };
 
 
-/*Here we defining coordinates and size for each animated square and line*/
-AnimCreator.prototype.getAnimations = function () {
-    var animations = [];
-
-    //for header
-    animations.push(
-        this.createPlainAnimation(
-            $("#head-animation>div:first-child"),
-            90,
-            12,
-            0,
-            null,
-            true,
-            "y"
-        )
-    );
-
-    //for work
-    animations.push(
-        this.createPlainAnimation(
-            $("#work .animation-container"),
-            60,
-            12,
-            10,
-            null,
-            true,
-            "y"
-        )
-    );
-
-    //for projects
-    animations.push(
-        this.createPlainAnimation(
-            $("#projects .animation-container"),
-            60,
-            12,
-            10,
-            null,
-            true,
-            "y"
-        )
-    );
-
-
-    return animations;
-};
 
 AnimCreator.prototype.addAnimatedObjectsToPage = function (animations) {
     animations.forEach(function (entry) {
@@ -171,5 +125,4 @@ function Animation(lines, square, target) {
     this.target = target;
 }
 
-var creator = new AnimCreator();
-creator.run();
+

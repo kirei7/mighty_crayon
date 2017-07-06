@@ -24,3 +24,37 @@ Other
     background-color: #1a8fc2;
 }
 
+.animation-lightblue .animation-circle {
+    border: 2px solid #0adaff;
+}
+.animation-lightblue .animate-line {
+    background-color: #0adaff;
+}
+
+.animation-red .animation-circle {
+    border: 2px solid #f4756e;
+}
+.animation-red .animate-line {
+    background-color: #f4756e;
+}
+
+.animation-yellow .animation-circle {
+    border: 2px solid #fff008;
+}
+.animation-yellow .animate-line {
+    background-color: #fff008;
+}
+
+.animation-green .animation-circle {
+    border: 2px solid #aed67a;
+}
+.animation-green .animate-line {
+    background-color: #aed67a;
+}
+
+
+
+
+
+
+

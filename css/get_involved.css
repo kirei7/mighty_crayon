@@ -1,0 +1,130 @@
+/*section header*/
+#involved-header {
+    height: 800px;
+    background: url("../img/get_involved/header.png");
+}
+/*section header end*/
+
+/*section involved-nav*/
+#involved-nav {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+#involved-nav button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #0adaff;
+    color: #0adaff;
+}
+#involved-nav button.active {
+    width: 150px;
+    height: 50px;
+    background: #0adaff;
+    color: #fff;
+}
+/*section involved-nav end*/
+
+/*section options*/
+#options {
+    background-color: #fcfcfc;
+}
+/*section options end*/
+
+/*section cases*/
+.img-arrow {
+    max-width: 180px;
+}
+.img-arrow.reversed {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+#cases .red {
+    color: #f4756e;
+}
+#cases .blue {
+    color: #0adaff;
+}
+#cases .yellow {
+    color: #fff008;
+}
+#cases .green {
+    color: #aed67a;
+}
+.cases-block {
+    width: 48%;
+    margin: 0 0;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.cases-block h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cases-block header>div {
+    display: inline-block;
+    vertical-align: top;
+}
+.cases-block .section-number {
+    font-size: 48px;
+    font-weight: bold;
+}
+.margintop {
+    margin-top: 150px;
+}
+/*section cases end*/
+
+/*contact section*/
+#contact {
+    margin-top: 100px;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-top: 25px;
+    width: 100%;
+    height: 55px;
+    padding: 25px;
+}
+#contact-form input[type='submit'] {
+    width: 150px;
+    line-height: 0;
+    border: 1px solid #ee2e24;
+    color: #f6908b;
+    background: none;
+}
+#contact-form textarea {
+    height: auto;
+    resize: none;
+}
+#logo-images {
+    display: block;
+}
+#logo-images > div {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-right: -5px;
+    margin-bottom: 80px;
+}
+#logo-images img {
+    display: block;
+    max-width: 230px;
+    height: auto;
+    margin: 0 auto;
+    opacity: 0.1;
+}
+/*contact section end*/
+
+/*other*/
+.animation-container {
+    margin-right: 25px;
+}
