@@ -1,0 +1,209 @@
+/*header*/
+#story-header {
+    background: url("../img/story/header.jpg") no-repeat;
+    height: 805px;
+}
+/*header end*/
+
+/*section mission*/
+#mission {
+    padding-top: 160px;
+}
+#mission .text-green {
+    font-size: 24px;
+}
+.text-green {
+    color: #aed67a;
+}
+#mission-images {
+    min-height: 500px;
+}
+#mission-images img:last-child{
+    width: 86%;
+    height: auto;
+    position: absolute;
+    left: -7px;
+    top: 24px;
+
+}
+#mission-process>div {
+    margin-bottom: 100px;
+}
+#mission-process h4 {
+    font-weight: bold;
+    display: block;
+    width: 360px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f9ab1d;
+}
+/*section mission end*/
+
+/*section team*/
+#team {
+    height: 762px;
+    background: url("../img/story/team.jpg") no-repeat;
+    color: white;
+}
+#team-profiles>div {
+    display: inline-block;
+    width: 26%;
+    margin-right: 11%;
+    margin-left: -4px;
+}
+#team-profiles>div:last-child {
+    margin-right: 0;
+}
+#team-profiles>div:first-child {
+    margin-left: 0;
+}
+#team-profiles>div>div {
+    border: 1px solid #f6f6f6;
+    text-transform: uppercase;
+}
+.team-name {
+    font-weight: bold;
+}
+/*section team end*/
+
+/*section work*/
+/*#our-work, #work-popup {
+    height: 980px;
+}*/
+#work-popup {
+    display: block;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+}
+
+#work-popup button.close {
+    color: white;
+    opacity: 1;
+    display: block;
+    height: 23px;
+    width: 23px;
+    line-height: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.work-popup-content {
+    color: white;
+    background-color: rgba(48,106,116, 0.9);
+}
+.work-popup-content>div, .mission-process-animation>div, .work-links header>div {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 30px;
+}
+.popup-img {
+    width: 45%;
+}
+.popup-text {
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.work-popup-content h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.work-popup-content p {
+    margin-top: 100px;
+}
+.work-popup-underline {
+    width: 135px;
+    height: 2px;
+    background-color: #222073;
+    margin-left: -33px;
+    margin-top: 20px;
+}
+#load-more {
+    display: block;
+    background-color: white;
+    color: #00afef;
+    border: 2px solid #00afef;
+    height: 50px;
+    line-height: 45px;
+    margin: 83px auto;
+    width: 170px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#our-work-tiles .row.outer-wrapper {
+    margin-top: 15px;
+}
+.row.outer-wrapper, .outer-wrapper>div {
+    margin: 0;
+    padding: 0;
+}
+.outer-wrapper>div {
+    background: grey;
+    height: 150px;
+}
+.outer-wrapper>div>img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.work-links {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.work-links header>div {
+    display: inline-block;
+    vertical-align: top;
+}
+.work-links button {
+    height: 45px;
+    line-height: 4px; /*strange value that should be equals "height - (padding-top+padding-bottom)"*/
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.work-links button:first-child {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.work-links button:last-child {
+    margin-right: 0;
+}
+.btn-green {
+    background-color: #bed54c;
+}
+.btn-gold {
+    background-color: #f5bc56;
+}
+.btn-blue {
+    background-color: #8dd1f5;
+}
+.outer-wrapper>div {
+    position: relative;
+}
+.tiles-bg {
+    background-color: #97a04e;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.tiles-bg>div>div {
+    margin-top: 25%;
+}
+.tiles-bg img {
+    width: 40px;
+    height: auto;
+}
+
+#our-work-tiles .outer-wrapper img:hover {
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+/*section work end*/

@@ -52,6 +52,13 @@ Other
     background-color: #aed67a;
 }
 
+.animation-gold .animation-circle {
+    border: 2px solid #fbc45f;
+}
+.animation-gold .animate-line {
+    background-color: #fbc45f;
+}
+
 
 
 

@@ -306,6 +306,59 @@
          data-easing="easeinout"></div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        /*Here we defining coordinates and size for each animated square and line*/
+        AnimCreator.prototype.getAnimations = function () {
+            var animations = [];
+
+            //for header
+            animations.push(
+                this.createPlainAnimation(
+                    $("#head-animation>div:first-child"),
+                    90,
+                    12,
+                    0,
+                    null,
+                    true,
+                    "y"
+                )
+            );
+
+            //for work
+            animations.push(
+                this.createPlainAnimation(
+                    $("#work .animation-container"),
+                    60,
+                    12,
+                    10,
+                    null,
+                    true,
+                    "y"
+                )
+            );
+
+            //for projects
+            animations.push(
+                this.createPlainAnimation(
+                    $("#projects .animation-container"),
+                    60,
+                    12,
+                    10,
+                    null,
+                    true,
+                    "y"
+                )
+            );
+            return animations;
+        };
+
+        var creator = new AnimCreator();
+        creator.run();
+    });
+
+</script>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -314,56 +367,7 @@
 <script src="js/jquery.scrollme.min.js"></script>
 
 <!--animation coordinates-->
-<script>
 
-    /*Here we defining coordinates and size for each animated square and line*/
-    AnimCreator.prototype.getAnimations = function () {
-        var animations = [];
-
-        //for header
-        animations.push(
-            this.createPlainAnimation(
-                $("#head-animation>div:first-child"),
-                90,
-                12,
-                0,
-                null,
-                true,
-                "y"
-            )
-        );
-
-        //for work
-        animations.push(
-            this.createPlainAnimation(
-                $("#work .animation-container"),
-                60,
-                12,
-                10,
-                null,
-                true,
-                "y"
-            )
-        );
-
-        //for projects
-        animations.push(
-            this.createPlainAnimation(
-                $("#projects .animation-container"),
-                60,
-                12,
-                10,
-                null,
-                true,
-                "y"
-            )
-        );
-        return animations;
-    };
-
-    var creator = new AnimCreator();
-    creator.run();
-</script>
 
 </body>
 </html>

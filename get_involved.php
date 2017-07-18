@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Get involved</title>
+<?php include_once "header.php"; ?>
 
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/get_involved.css" rel="stylesheet">
-    <link href="css/animation.css" rel="stylesheet">
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-
-<nav id="nav-skew" class="fixed">
-    <div class="nav-section skew"><a href="#"><span><span class="inner">Home</span> </span></a></div>
-    <div class="nav-section skew"><a href="#"><span><span class="inner">Our Story</span></span></a></div>
-    <div class="nav-section skew"><a href="#"><span><span class="inner">Our Impact</span></span></a></div>
-    <div class="nav-section skew"><a href="#"><span><span class="inner">Get Involved</span></span></a></div>
-    <div class="nav-section skew"><a href="#"><span><span class="inner">Contact Us</span></span></a></div>
-</nav>
-
-<!--page content-->
+<link href="css/get_involved.css" rel="stylesheet">
 
 <section id="involved-header" class="headblock text-center">
     <div>
@@ -101,18 +71,16 @@
     <div class="container">
         <div class="row">
             <div class="cases-block">
+                <h1>Restaurants</h1>
                 <header>
-                    <h1>Restaurants</h1>
-                    <div>
-                        <div><span class="section-number blue">01</span></div>
-                        <div class="animation-container animation-lightblue"></div>
-                        <div><p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p></div>
-                    </div>
+                    <div><span class="section-number blue">01</span></div>
+                    <div class="animation-container animation-lightblue"></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </header>
                 <img src="img/get_involved/restaurants.jpg" class="img-responsive">
                 <img src="img/get_involved/arrow.PNG" class="img-arrow center-block">
             </div>
-            <div class="cases-block pull-right restaurants">
+            <div class="cases-block pull-right margintop">
                 <div class="cases-text">
                     <h4 class="blue">RESTAURANTS GIVE US CRAYONS</h4>
                     <p>Donec ac arcu lacus. Aliquam dignissim velit eu risus volutpat vulputate. Maecenas eros nulla,
@@ -124,19 +92,17 @@
                         nec lobortis mattis. </p>
                 </div>
             </div>
-            <div class="cases-block pull-right schools">
+            <div class="cases-block pull-right margintop">
+                <h1>Schools</h1>
                 <header>
-                    <h1>Schools</h1>
-                    <div>
-                        <div><span class="section-number red">02</span></div>
-                        <div class="animation-container animation-red"></div>
-                        <div><p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p></div>
-                    </div>
+                    <div><span class="section-number red">02</span></div>
+                    <div class="animation-container animation-red"></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </header>
                 <img src="img/get_involved/schools.jpg" class="img-responsive">
                 <img src="img/get_involved/arrow.PNG" class="img-arrow center-block reversed">
             </div>
-            <div class="cases-block schools-text">
+            <div class="cases-block">
                 <div class="cases-text">
                     <h4 class="red">SCHOOLS ALLOW US TO GIVE THE CRAYONS TO KIDS</h4>
                     <p>Donec ac arcu lacus. Aliquam dignissim velit eu risus volutpat vulputate. Maecenas eros nulla,
@@ -148,19 +114,17 @@
                         nec lobortis mattis. </p>
                 </div>
             </div>
-            <div class="cases-block volunteers">
+            <div class="cases-block margintop">
+                <h1>Volunteers</h1>
                 <header>
-                    <h1>Volunteers</h1>
-                    <div>
-                        <div><span class="section-number yellow">03</span></div>
-                        <div class="animation-container animation-yellow"></div>
-                        <div><p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p></div>
-                    </div>
+                    <div><span class="section-number yellow">03</span></div>
+                    <div class="animation-container animation-yellow"></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </header>
                 <img src="img/get_involved/volunteers.jpg" class="img-responsive">
                 <img src="img/get_involved/arrow.PNG" class="img-arrow center-block">
             </div>
-            <div class="cases-block volunteers-text pull-right">
+            <div class="cases-block pull-right">
                 <div class="cases-text">
                     <h4 class="yellow">volunteers either donate their time or
                         money to our cause.</h4>
@@ -173,18 +137,16 @@
                         nec lobortis mattis. </p>
                 </div>
             </div>
-            <div class="cases-block sponsors pull-right">
+            <div class="cases-block margintop pull-right">
+                <h1>Sponsors</h1>
                 <header>
-                    <h1>Sponsors</h1>
-                    <div>
-                        <div><span class="section-number green">04</span></div>
-                        <div class="animation-container animation-green"></div>
-                        <div><p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.</p></div>
-                    </div>
+                    <div><span class="section-number green">04</span></div>
+                    <div class="animation-container animation-green"></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
                 </header>
                 <img src="img/get_involved/schools.jpg" class="img-responsive">
             </div>
-            <div class="cases-block sponsors-text">
+            <div class="cases-block">
                 <div class="cases-text">
                     <h4 class="green">BEING SPONSORSHIP...</h4>
                     <p>Donec ac arcu lacus. Aliquam dignissim velit eu risus volutpat vulputate. Maecenas eros nulla,
@@ -206,10 +168,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h1>Get In Touch</h1>
-                <div class="contact-animation">
-                    <div class="animation-container animation-red"></div>
-                    <div><p>Give us an e-mail and we’ll get back<br>to you shortly.</p></div>
-                </div>
+                <div></div>
                 <div id="contact-form-wrapper">
                     <h4>GIVE US A GOOD NEWS</h4>
                     <form id="contact-form">
@@ -260,119 +219,5 @@
     </div>
 </section>
 
-<!--page content end-->
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h4>ABOUT US</h4>
-                <div class="yellow-underline"></div>
-                <p>Our mission is to encourage enjoyable and empowering experiences for children around the world
-                    through the use of recycled creative mediums.</p>
-            </div>
-            <div class="col-sm-3">
-                <h4>SITEMAP</h4>
-                <div class="yellow-underline"></div>
-                <ul>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="#">Our Impact</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Get Involved</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h4>CONTACT INFO</h4>
-                <div class="yellow-underline"></div>
-                <ul id="footer-styled-ul">
-                    <li style="background: url('img/main/footer/list-building.png') left center no-repeat">400 NW Gilman
-                        Blvd
-                        #769,<br>
-                        Issaquah WA 98027
-                    </li>
-                    <li style="background: url('img/main/footer/list-phone.png') left center no-repeat">1 425-770-8227
-                    </li>
-                    <li style="background: url('img/main/footer/list-mail.png') left center no-repeat">
-                        hello@mightycrayon.org
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h4>NEWSLETTER</h4>
-                <div class="yellow-underline"></div>
-                <p>Subscribe to our newsletter to follow our progress and receive opportunities where you can get
-                    involved</p>
-                <input type="email" placeholder="Email address...">
-            </div>
-
-        </div>
-    </div>
-</footer>
-
-<section id="copiright">
-    <span>ALL COPYRIGHTS RESERVED:</span><span>OVER THE TOP SEO</span>
-</section>
-
-<div class="hidden reusable">
-    <div class="animateme scrollme animate-line col-xs-hidden"
-         data-when="enter"
-         data-from="0"
-         data-to="0.6"
-         data-opacity="1"
-         data-easing="easeinout"></div>
-    <div class="animateme scrollme animation-circle col-xs-hidden"
-         data-when="enter"
-         data-from="0"
-         data-to="0.6"
-         data-opacity="1"
-         data-easing="easeinout"></div>
-</div>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/animation.js"></script>
-<script src="js/jquery.scrollme.min.js"></script>
-
-<script>
-
-    /*Here we defining coordinates and size for each animated square and line*/
-    AnimCreator.prototype.getAnimations = function () {
-        var animations = [];
-
-        //for header
-        animations.push(
-            this.createPlainAnimation(
-                $(".cases-block .animation-container"),
-                60,
-                12,
-                0,
-                null,
-                true,
-                "y"
-            )
-        );
-        animations.push(
-            this.createPlainAnimation(
-                $(".contact-animation .animation-container"),
-                60,
-                12,
-                0,
-                null,
-                true,
-                "y"
-            )
-        );
-
-
-        return animations;
-    };
-
-    var creator = new AnimCreator();
-    creator.run();
-</script>
-
-</body>
-</html>
+<?php include_once "footer.php"; ?>

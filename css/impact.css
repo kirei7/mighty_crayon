@@ -1,7 +1,7 @@
 /*section header*/
 #impact-header {
     height: 800px;
-    background: url("../img/impact/impact-header.png");
+    background: url("../img/impact/header.jpg");
 }
 /*section header end*/
 
@@ -35,6 +35,20 @@
 #reach-tip span {
     border-bottom: 2px solid #00afef;
     padding-bottom: 20px;
+}
+.map-wrapper img {
+    position: relative;
+}
+map a {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+#map-tooltips {
+    padding: 0;
+}
+#map-tooltips li {
+    display: inline-block;
 }
 /*section reach end*/
 

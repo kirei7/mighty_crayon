@@ -1,7 +1,7 @@
 /*section header*/
 #involved-header {
     height: 800px;
-    background: url("../img/get_involved/header.png");
+    background: url("../img/get_involved/header.jpg");
 }
 /*section header end*/
 
@@ -43,6 +43,9 @@
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
+#cases {
+    padding-top: 130px;
+}
 #cases .red {
     color: #f4756e;
 }
@@ -64,13 +67,19 @@
     font-size: 15px;
     line-height: 1.5;
 }
+.cases-block h1 {
+    margin-top: 0;
+    margin-left: 85px;
+}
 .cases-block h4 {
-    margin-top: 50px;
     margin-bottom: 50px;
     font-weight: bold;
     text-transform: uppercase;
 }
-.cases-block header>div {
+.cases-block header {
+    height: 150px;
+}
+.cases-block header>div>div, .contact-animation>div {
     display: inline-block;
     vertical-align: top;
 }
@@ -78,16 +87,35 @@
     font-size: 48px;
     font-weight: bold;
 }
-.margintop {
-    margin-top: 150px;
+
+.cases-block.restaurants {
+    margin-top: 220px;
 }
+.cases-block.schools {
+    margin-top: 95px;
+}
+.cases-block.schools-text, .cases-block.volunteers-text {
+    margin-top: 45px;
+}
+.cases-block.volunteers, .cases-block.sponsors-text {
+    margin-top: 40px;
+}
+.cases-block.sponsors {
+    margin-top: 75px;
+}
+
 /*section cases end*/
 
 /*contact section*/
 #contact {
     margin-top: 100px;
+    color: #525252;
 }
-
+#contact-form-wrapper h4 {
+    color: #413d4b;
+    font-size: 20px;
+    font-weight: bold;
+}
 #contact-form input, #contact-form textarea {
     margin-top: 25px;
     width: 100%;
